@@ -1,0 +1,56 @@
+ body {
+    
+    
+}
+
+/* header styles */   
+nav, footer {
+    background-color: steelblue;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 40px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+a:hover {
+    background-color: white;
+    color: steelblue; 
+}
+
+/* main styles */
+h1 {
+    color: steelblue;
+    text-align: center;
+}
+
+img {
+    width: 80%;
+    border: 4px solid steelblue;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.main-para {
+    font-size: 1.5em;
+}
+
+#active {
+    background-color: white;
+    color: steelblue;
+}
+
+footer p {
+    font-size: 20px;
+}
