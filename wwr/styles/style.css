@@ -1,5 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+
+
+
 body {
     background-color: white;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -15,6 +28,7 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none; 
+    padding: 35px;
 }
 
 nav a:hover {
@@ -24,6 +38,7 @@ nav a:hover {
 
 #hero-msg h1 , #hero-msg h4 {
     text-align: center;
+    font-size: 20px
 }
 
 .button-box {
@@ -43,6 +58,10 @@ main section {
     background-color: #698996;
     color: white;
     text-decoration: none; 
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px; 
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -52,18 +71,26 @@ main section {
 
 .msg {
     background-color: #698996;
+    line-height: 1.5em;
+    padding: 35px; 
 }
 
 .msg h2 {
     color: white;
+    font-family: 'Merienda', Arial, monospace;
 }
 
 .msg p {
     color: white;
+    font-family: 'Montserrat', Arial, monospace;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #698996;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer h3 {
@@ -83,8 +110,16 @@ footer a:hover {
     color: #243119;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .home-title {
+    text-align: center;
     color: #243119;
+    font-family: 'Merienda', Arial, monospace;
+    font-size: 2em; 
+    margin-top: 10px;
 }
 
 h4 {
@@ -97,8 +132,25 @@ h4 {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #9D695A; 
+}
+
+main section img {
+    box-sizing: border-box;
 }
