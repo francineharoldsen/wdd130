@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-rows: 4fr;
+}
+
+.logo {
+    width: 50px;
+}
+header p {
+    grid-column: 1/2;
+    grid-row: 1;
+    color: #f1e7e4
+    margin-left: 20px auto
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+    color: #f1e7e4;
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 20px;
+    background-color: #312921;
+
+    
+}
+
